@@ -3,6 +3,6 @@
 /x64
 /.vs
 
-.vcxproj
-.vcxproj.filters
-.vcxproj.user
+Poblano.vcxproj
+Poblano.vcxproj.filters
+Poblano.vcxproj.user
