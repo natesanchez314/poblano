@@ -1,0 +1,3 @@
+[submodule "Poblano/vendor/spdlog"]
+	path = Poblano/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

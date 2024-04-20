@@ -6,6 +6,8 @@ extern Poblano::App* Poblano::CreateApp();
 
 int main(int argc, char** argv)
 {
+	Poblano::Log::Init();
+
 	auto app = Poblano::CreateApp();
 	app->run();
 	delete app;

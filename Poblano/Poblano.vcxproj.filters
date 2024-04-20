@@ -30,9 +30,15 @@
     <ClInclude Include="src\Poblano\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Poblano\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Poblano\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Poblano\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
