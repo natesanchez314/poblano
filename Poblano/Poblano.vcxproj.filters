@@ -4,6 +4,9 @@
     <Filter Include="Poblano">
       <UniqueIdentifier>{107D091C-7C5C-88B7-8574-138EF1D2EE18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Poblano\Events">
+      <UniqueIdentifier>{F4D66DCC-E0A4-61D2-C938-D2F8B5A53D37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Poblano.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Poblano\EntryPoint.h">
       <Filter>Poblano</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Poblano\Events\AppEvent.h">
+      <Filter>Poblano\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Poblano\Events\Event.h">
+      <Filter>Poblano\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Poblano\Events\KeyEvent.h">
+      <Filter>Poblano\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Poblano\Events\MouseEvent.h">
+      <Filter>Poblano\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Poblano\Log.h">
       <Filter>Poblano</Filter>

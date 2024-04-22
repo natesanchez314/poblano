@@ -13,5 +13,5 @@ namespace Poblano
 		void run();
 	};
 
-	App* CreateApp();
+	App* createApp();
 }

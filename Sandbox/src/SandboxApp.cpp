@@ -8,12 +8,13 @@ public:
 
 	}
 
-	~SandboxApp() {
+	~SandboxApp()
+	{
 
 	}
 };
 
-Poblano::App* Poblano::CreateApp()
+Poblano::App* Poblano::createApp()
 {
 	return new SandboxApp();
 }
